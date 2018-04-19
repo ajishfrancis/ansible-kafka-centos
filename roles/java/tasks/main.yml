@@ -38,7 +38,7 @@
 
 - name: /etc/profile.d/java8.sh
   template: >
-    src=profile.java8.sh.j2
+    src=profile.java10.sh.j2
     dest=/etc/profile.d/{{  symlink_to  }}.sh
     owner=root group=root mode=0644
   tags: java8
