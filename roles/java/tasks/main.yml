@@ -33,6 +33,7 @@
     state=link
     src=/usr/java/jdk{{ jdk8_version }}
     dest=/usr/local/{{  symlink_to  }}
+    force=yes
     owner=root group=root
   tags: java8
 
