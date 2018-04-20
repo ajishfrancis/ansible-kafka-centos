@@ -1,17 +1,14 @@
 kafka_cluster_info :
-  itachi:
+  192.168.1.143:
     broker_id: 1
-  sasuke:
-    broker_id: 2
-  obito:
-    broker_id: 3
+
 
 zk_cluster_info:
-  madara:
+  192.168.1.139:
     zk_id: 1
 
 zk_client_port: 2181
 
 jmx_port: 9990
 
-graphite_host: madara
+graphite_host: 192.168.1.139
