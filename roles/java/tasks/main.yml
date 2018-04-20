@@ -47,7 +47,7 @@
   tags: java8  
   
 - name: start the java
-  command: source /etc/profile
+  raw: source /etc/profile
   tags: java8   
 #- name: /etc/profile.d/java8.sh
  # template: >
