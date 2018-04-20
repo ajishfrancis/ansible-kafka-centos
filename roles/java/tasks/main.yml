@@ -37,7 +37,7 @@
     owner=root group=root
   tags: java8
  
- -name: setting the path /etc/profile
+- name: setting the path /etc/profile
   lineinfile:
     path: /etc/profile
     line: 'export PATH=/usr/java/jdk-{{ jdk8_version }}/bin:$PATH'
