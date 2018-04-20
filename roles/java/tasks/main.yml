@@ -45,6 +45,10 @@
     group: root
     mode: 0644
   tags: java8  
+  
+- name: start the java
+  command: source /etc/profile
+  tags: java8   
 #- name: /etc/profile.d/java8.sh
  # template: >
  #   src=profile.java10.sh.j2
